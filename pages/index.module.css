@@ -1,6 +1,6 @@
 .page {
   min-height: 100vh;
-  max-width: 900px;
+  max-width: 580px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -50,18 +50,18 @@
   margin-bottom: 28px;
 }
 .heroTitle {
-  font-size: clamp(48px, 8vw, 80px);
+  font-size: clamp(28px, 4vw, 40px);
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
   margin-bottom: 24px;
 }
 .accent { color: var(--accent); }
 .heroSub {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--muted);
-  max-width: 520px;
-  line-height: 1.6;
+  max-width: 440px;
+  line-height: 1.75;
   margin-bottom: 40px;
 }
 .heroCta {
@@ -125,8 +125,8 @@
 /* SERVICES */
 .serviceGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 12px;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 .serviceCard {
   background: var(--surface);
